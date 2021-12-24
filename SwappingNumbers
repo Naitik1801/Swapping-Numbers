@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int num1, num2;
+printf("Enter two positive numbers - ");
+scanf("%d %d", &num1, &num2);
+printf("\nBefore Swap Operation - ");
+printf("\nThe value of num 1 = %d", num1);
+printf("\nThe value of num 2 = %d", num2);
+num1 = num1+num2;
+num2 = num1-num2;
+num1 = num1-num2;
+printf("\nAfter Swap Operation - ");
+printf("\nThe value of num 1 = %d", num1);
+printf("\nThe value of num 2 = %d", num2);
+}
